@@ -1,0 +1,7 @@
+- name: creating variables
+  hosts: mongodb
+  become: yes
+  tasks:
+  - name: printing variables
+    ansible.builtin.debug:
+     msg: "welcome to {{NAME}}"

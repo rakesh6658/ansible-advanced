@@ -1,0 +1,5 @@
+- name: creating mongodb
+  hosts: mongodb
+  become: yes
+  roles:
+  - mongodb

@@ -1,0 +1,6 @@
+- name: creating configurationfile
+  hosts: centos
+  become: yes
+  tasks:
+  - name: creating file
+    ansible.builtin.shell: echo welcome to ansible > /tmp/rakesh.txt

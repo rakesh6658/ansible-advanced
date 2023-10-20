@@ -1,0 +1,12 @@
+- name: creating multiple environments
+  hosts: nginx
+  become: yes
+  tasks:
+  - name: installing nginx
+    ansible.builtin.yum: 
+     name: nginx
+     state: present
+  - name: start and enable
+    ansible.builtin.service:
+     name: nginx
+     state: restart   

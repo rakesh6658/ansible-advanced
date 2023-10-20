@@ -1,0 +1,7 @@
+- name: printing variables
+  hosts: mongodb
+  become: yes
+  tasks:
+  - name: printing variables
+    ansible.builtin.debug:
+     msg: "printing {{name}} variables"

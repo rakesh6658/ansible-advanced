@@ -1,0 +1,4 @@
+[mongodb]
+54.167.43.58
+[mongodb:vars]
+name=prod-environment

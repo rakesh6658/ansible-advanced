@@ -1,0 +1,4 @@
+- name: multi environments
+  become: yes
+  roles:
+  - mongodb

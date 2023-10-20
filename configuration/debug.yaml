@@ -1,6 +1,6 @@
-- name: creating configurationfile
+- name: using ansible.cfg
   hosts: centos
   become: yes
   tasks:
-  - name: creating file
-    ansible.builtin.shell: echo welcome to ansible > /tmp/rakesh.txt
+  - name: printing message
+    ansible.builtin.shell: echo welcome to ansible.cfg >> /tmp/rakesh

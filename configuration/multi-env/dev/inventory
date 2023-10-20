@@ -1,5 +1,0 @@
-[mongodb]
-54.196.126.216
-
-[mongodb:vars]
-NAME=mongodb-dev
